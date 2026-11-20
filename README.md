@@ -2,6 +2,8 @@
 
 Take a book from Typst to an EPUB 3 download, then compare its actual reading-order content with its HTML reference. The audit lists missing or reordered headings, changed math text, unmatched local illustrations and unresolved local links.
 
+**[English quickstart and step-by-step tutorial](TUTORIAL.md)**
+
 ## Install as an Agent Skill
 
 Download the **versioned ZIP** from [Releases](https://github.com/Uone100/typst-epub-handoff/releases/latest). Extract its contents into `.agents/skills/typst-epub-handoff/` in a Codex project or `.claude/skills/typst-epub-handoff/` in a Claude Code project. The installed folder should contain SKILL.md directly. Start a new session and ask for the task described above. You can also run the helper directly.
